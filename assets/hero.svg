@@ -1,0 +1,169 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" width="900" height="480" role="img" aria-label="Gopinath Kaniyanppan — Full-Stack Developer & AI Enthusiast">
+  <title>Gopinath Kaniyanppan — Full-Stack Developer & AI Enthusiast</title>
+  <defs>
+    <!-- Graph paper grid pattern -->
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#c8c8c0" stroke-width="0.4"/>
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#b8b8b0" stroke-width="0.8"/>
+    </pattern>
+    <!-- Sketch texture filter -->
+    <filter id="sketch" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.8" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <!-- Ink filter for drawn lines -->
+    <filter id="ink">
+      <feTurbulence type="turbulence" baseFrequency="0.065" numOctaves="2" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap');
+      .name { font-family: 'Caveat', cursive; font-weight: 700; }
+      .mono { font-family: 'Space Mono', 'Courier New', monospace; }
+      .hand { font-family: 'Caveat', cursive; }
+    </style>
+  </defs>
+
+  <!-- Paper background -->
+  <rect width="900" height="480" fill="#f7f7f3"/>
+
+  <!-- Graph paper grid -->
+  <rect width="900" height="480" fill="url(#grid)" opacity="0.7"/>
+
+  <!-- Top-left corner bracket -->
+  <path d="M 20 20 L 20 8 L 32 8" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="square"/>
+  <!-- Top-right corner bracket -->
+  <path d="M 868 8 L 880 8 L 880 20" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="square"/>
+  <!-- Bottom-left corner bracket -->
+  <path d="M 8 460 L 8 472 L 20 472" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="square"/>
+  <!-- Bottom-right corner bracket -->
+  <path d="M 880 460 L 880 472 L 868 472" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="square"/>
+
+  <!-- Top horizontal rule -->
+  <line x1="40" y1="38" x2="860" y2="38" stroke="#1a1a1a" stroke-width="0.8" opacity="0.4"/>
+  <!-- Bottom horizontal rule -->
+  <line x1="40" y1="448" x2="860" y2="448" stroke="#1a1a1a" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Red version label — top left -->
+  <text x="24" y="28" class="mono" font-size="9" fill="#cc2b2b" letter-spacing="0.08em">— FINAL / MAIN v2.6</text>
+
+  <!-- Top right metadata -->
+  <text x="876" y="22" class="mono" font-size="8.5" fill="#888" text-anchor="end">FIG 0. PORTRAIT</text>
+  <text x="876" y="34" class="mono" font-size="8" fill="#aaa" text-anchor="end">github.com/Gopinath272006</text>
+
+  <!-- Vertical center divider -->
+  <line x1="560" y1="50" x2="560" y2="440" stroke="#1a1a1a" stroke-width="0.6" stroke-dasharray="3,5" opacity="0.25"/>
+
+  <!-- ── LEFT CONTENT ────────────────────────── -->
+
+  <!-- Role tag -->
+  <text x="46" y="90" class="mono" font-size="9.5" fill="#cc2b2b" letter-spacing="0.12em">// FULL-STACK DEVELOPER · AI ENTHUSIAST</text>
+
+  <!-- Large handwritten name -->
+  <text x="44" y="168" class="name" font-size="72" fill="#0d0d0d" letter-spacing="-0.01em">Gopinath</text>
+  <text x="44" y="238" class="name" font-size="72" fill="#0d0d0d" letter-spacing="-0.01em">Kaniyanppan</text>
+
+  <!-- Underline accent -->
+  <line x1="46" y1="248" x2="380" y2="248" stroke="#cc2b2b" stroke-width="1.8" opacity="0.5"/>
+
+  <!-- Italic subtitle -->
+  <text x="46" y="278" class="hand" font-size="20" fill="#555" font-style="italic">Full-Stack Developer &amp; AI Enthusiast</text>
+
+  <!-- Description -->
+  <text x="46" y="308" class="hand" font-size="14.5" fill="#666">Passionate CS student building AI-powered</text>
+  <text x="46" y="326" class="hand" font-size="14.5" fill="#666">applications and scalable web solutions.</text>
+  <text x="46" y="344" class="hand" font-size="14.5" fill="#666">Crafting automation-driven products that</text>
+  <text x="46" y="362" class="hand" font-size="14.5" fill="#666">solve real-world problems.</text>
+
+  <!-- Portfolio button -->
+  <rect x="46" y="385" width="156" height="38" fill="none" stroke="#0d0d0d" stroke-width="1.8" rx="0"/>
+  <text x="124" y="408" class="mono" font-size="11" fill="#0d0d0d" text-anchor="middle" letter-spacing="0.04em">View Projects →</text>
+
+  <!-- Portfolio link button (red outline) -->
+  <rect x="214" y="385" width="148" height="38" fill="none" stroke="#cc2b2b" stroke-width="1.8" rx="0"/>
+  <text x="288" y="408" class="mono" font-size="11" fill="#cc2b2b" text-anchor="middle" letter-spacing="0.04em">gopinathk.me ↗</text>
+
+  <!-- ── RIGHT PORTRAIT AREA ────────────────── -->
+
+  <!-- Portrait frame -->
+  <rect x="590" y="56" width="268" height="340" fill="#efefeb" stroke="#1a1a1a" stroke-width="1.2"/>
+
+  <!-- Portrait label -->
+  <text x="846" y="72" class="mono" font-size="8" fill="#aaa" text-anchor="end">FIG 0. PORTRAIT</text>
+
+  <!-- Sketch portrait — hand-drawn SVG person -->
+  <g transform="translate(590,56)">
+    <!-- Head -->
+    <ellipse cx="134" cy="118" rx="44" ry="52" fill="#ede8e0" stroke="#1a1a1a" stroke-width="1.4" filter="url(#ink)"/>
+    <!-- Hair mass -->
+    <path d="M 94 108 Q 88 74 100 56 Q 116 36 134 32 Q 154 36 168 56 Q 180 76 176 108" fill="#252520" stroke="#1a1a1a" stroke-width="1.2"/>
+    <!-- Hair strands -->
+    <path d="M 96 100 Q 100 78 108 64" stroke="#1a1a1a" stroke-width="0.7" fill="none" opacity="0.55"/>
+    <path d="M 174 100 Q 170 78 162 64" stroke="#1a1a1a" stroke-width="0.7" fill="none" opacity="0.55"/>
+    <path d="M 134 32 Q 130 42 128 52" stroke="#1a1a1a" stroke-width="0.9" fill="none"/>
+    <!-- Eyes -->
+    <ellipse cx="116" cy="116" rx="7" ry="5.5" fill="white" stroke="#1a1a1a" stroke-width="1.1"/>
+    <ellipse cx="152" cy="116" rx="7" ry="5.5" fill="white" stroke="#1a1a1a" stroke-width="1.1"/>
+    <circle cx="117" cy="117" r="3.5" fill="#1a1a1a"/>
+    <circle cx="153" cy="117" r="3.5" fill="#1a1a1a"/>
+    <circle cx="119" cy="115" r="1.2" fill="white"/>
+    <circle cx="155" cy="115" r="1.2" fill="white"/>
+    <!-- Eyebrows -->
+    <path d="M 108 107 Q 116 102 123 105" stroke="#1a1a1a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M 145 105 Q 152 101 160 106" stroke="#1a1a1a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M 132 124 Q 129 136 126 140 Q 131 144 142 140 Q 139 136 136 124" stroke="#1a1a1a" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+    <!-- Mustache hint -->
+    <path d="M 122 150 Q 134 153 146 150" stroke="#1a1a1a" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+    <!-- Lips -->
+    <path d="M 120 154 Q 127 159 134 158 Q 141 159 148 154" stroke="#1a1a1a" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    <!-- Ears -->
+    <path d="M 90 112 Q 84 119 86 127 Q 90 133 96 130" stroke="#1a1a1a" stroke-width="1.1" fill="#ede8e0" stroke-linecap="round"/>
+    <path d="M 178 112 Q 184 119 182 127 Q 178 133 172 130" stroke="#1a1a1a" stroke-width="1.1" fill="#ede8e0" stroke-linecap="round"/>
+    <!-- Neck -->
+    <path d="M 120 164 Q 120 180 134 188 Q 148 180 148 164" stroke="#1a1a1a" stroke-width="1.1" fill="#ede8e0"/>
+    <!-- Shirt body -->
+    <path d="M 48 340 Q 50 296 72 272 L 84 260 L 134 278 L 184 260 L 196 272 Q 218 296 220 340 Z" fill="#f0f0ec" stroke="#1a1a1a" stroke-width="1.3"/>
+    <!-- Collar -->
+    <path d="M 116 188 L 134 202 L 152 188" stroke="#1a1a1a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <!-- Button line -->
+    <line x1="134" y1="202" x2="134" y2="290" stroke="#1a1a1a" stroke-width="0.7" stroke-dasharray="2,5"/>
+    <!-- Shirt texture -->
+    <path d="M 65 280 Q 78 276 90 281" stroke="#1a1a1a" stroke-width="0.5" fill="none" opacity="0.35"/>
+    <path d="M 178 280 Q 191 276 200 281" stroke="#1a1a1a" stroke-width="0.5" fill="none" opacity="0.35"/>
+    <path d="M 58 304 Q 74 300 88 304" stroke="#1a1a1a" stroke-width="0.5" fill="none" opacity="0.3"/>
+  </g>
+
+  <!-- Portrait corner annotations -->
+  <line x1="590" y1="396" x2="630" y2="396" stroke="#aaa" stroke-width="0.8"/>
+  <text x="634" y="399" class="mono" font-size="8" fill="#aaa">SKETCH / INK</text>
+
+  <!-- Bottom-right annotation — Anna University -->
+  <rect x="642" y="415" width="124" height="20" fill="none" stroke="#cc2b2b" stroke-width="1"/>
+  <text x="704" y="428" class="mono" font-size="9" fill="#cc2b2b" text-anchor="middle">Anna University ↗</text>
+
+  <!-- ── FLOATING ANNOTATIONS ───────────────── -->
+
+  <!-- Building since annotation (near portrait) -->
+  <text x="576" y="118" class="hand" font-size="12" fill="#888" text-anchor="end">4th Year CS /</text>
+  <text x="576" y="133" class="hand" font-size="12" fill="#888" text-anchor="end">Building since 2024 ····</text>
+
+  <!-- Dot accent -->
+  <circle cx="566" cy="210" r="3.5" fill="#cc2b2b"/>
+
+  <!-- Left side annotation lines -->
+  <line x1="24" y1="168" x2="38" y2="168" stroke="#aaa" stroke-width="0.7"/>
+  <line x1="24" y1="238" x2="38" y2="238" stroke="#aaa" stroke-width="0.7"/>
+
+  <!-- Bottom left version / page label -->
+  <text x="46" y="460" class="mono" font-size="8.5" fill="#aaa" letter-spacing="0.06em">// GOPINATH-KANIYANPPAN · PROFILE README · 2026</text>
+  <text x="854" y="460" class="mono" font-size="8.5" fill="#aaa" text-anchor="end" letter-spacing="0.06em">ANNA UNIVERSITY · COIMBATORE</text>
+
+  <!-- Scroll hint at bottom center -->
+  <text x="450" y="442" class="mono" font-size="8.5" fill="#bbb" text-anchor="middle">↓ scroll to explore</text>
+  <circle cx="450" cy="432" r="6" fill="none" stroke="#bbb" stroke-width="0.8"/>
+  <circle cx="450" cy="432" r="2" fill="#bbb"/>
+</svg>
