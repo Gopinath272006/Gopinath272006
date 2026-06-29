@@ -1,0 +1,64 @@
+<svg viewBox="0 0 280 340" xmlns="http://www.w3.org/2000/svg" width="280" height="340">
+  <defs>
+    <pattern id="sg2" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#ccc" stroke-width="0.35"/>
+    </pattern>
+    <filter id="roughen">
+      <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.1" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="280" height="340" fill="#efefeb"/>
+  <rect width="280" height="340" fill="url(#sg2)" opacity="0.7"/>
+
+  <!-- Frame border -->
+  <rect x="4" y="4" width="272" height="332" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+
+  <!-- Top label -->
+  <text x="244" y="18" font-family="'Courier New',monospace" font-size="8" fill="#aaa" text-anchor="end">FIG 0. PORTRAIT</text>
+  <line x1="8" y1="22" x2="272" y2="22" stroke="#aaa" stroke-width="0.5"/>
+
+  <!-- Sketch figure — centered -->
+  <g transform="translate(140,170)" filter="url(#roughen)">
+    <!-- Head -->
+    <ellipse cx="0" cy="-55" rx="42" ry="50" fill="#e8e3db" stroke="#1a1a1a" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M -40 -65 Q -36 -100 -20 -110 Q 0 -118 20 -110 Q 36 -100 40 -65" fill="#2a2520" stroke="#1a1a1a" stroke-width="1.1"/>
+    <!-- Hair strands -->
+    <path d="M -38 -75 Q -32 -96 -22 -106" stroke="#1a1a1a" stroke-width="0.7" fill="none" opacity="0.5"/>
+    <path d="M 38 -75 Q 32 -96 22 -106" stroke="#1a1a1a" stroke-width="0.7" fill="none" opacity="0.5"/>
+    <!-- Eyes -->
+    <ellipse cx="-13" cy="-62" rx="7" ry="5" fill="white" stroke="#1a1a1a" stroke-width="1"/>
+    <ellipse cx="13" cy="-62" rx="7" ry="5" fill="white" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="-12" cy="-61" r="3" fill="#1a1a1a"/>
+    <circle cx="14" cy="-61" r="3" fill="#1a1a1a"/>
+    <circle cx="-10" cy="-63" r="1" fill="white"/>
+    <circle cx="16" cy="-63" r="1" fill="white"/>
+    <!-- Eyebrows -->
+    <path d="M -21 -71 Q -13 -76 -5 -73" stroke="#1a1a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M 5 -73 Q 13 -77 21 -72" stroke="#1a1a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M -2 -52 Q -5 -42 -8 -38 Q -2 -34 8 -38 Q 5 -42 2 -52" stroke="#1a1a1a" stroke-width="0.85" fill="none" stroke-linecap="round"/>
+    <!-- Mustache hint -->
+    <path d="M -12 -32 Q 0 -29 12 -32" stroke="#1a1a1a" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+    <!-- Lips -->
+    <path d="M -12 -27 Q -4 -23 0 -24 Q 4 -23 12 -27" stroke="#1a1a1a" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    <!-- Ears -->
+    <path d="M -42 -60 Q -48 -53 -46 -45 Q -42 -39 -36 -42" stroke="#1a1a1a" stroke-width="1" fill="#e8e3db" stroke-linecap="round"/>
+    <path d="M 42 -60 Q 48 -53 46 -45 Q 42 -39 36 -42" stroke="#1a1a1a" stroke-width="1" fill="#e8e3db" stroke-linecap="round"/>
+    <!-- Neck -->
+    <path d="M -14 -6 Q -14 8 0 14 Q 14 8 14 -6" stroke="#1a1a1a" stroke-width="1.1" fill="#e8e3db"/>
+    <!-- Shirt -->
+    <path d="M -90 160 Q -88 118 -68 96 L -54 82 L 0 98 L 54 82 L 68 96 Q 88 118 90 160 Z" fill="#f0f0ec" stroke="#1a1a1a" stroke-width="1.2"/>
+    <path d="M -16 16 L 0 28 L 16 16" stroke="#1a1a1a" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    <line x1="0" y1="28" x2="0" y2="100" stroke="#1a1a1a" stroke-width="0.6" stroke-dasharray="2,5"/>
+  </g>
+
+  <!-- Bottom annotation -->
+  <line x1="8" y1="316" x2="272" y2="316" stroke="#aaa" stroke-width="0.5"/>
+  <text x="14" y="329" font-family="'Courier New',monospace" font-size="8" fill="#aaa">GOPINATH K · CS ENGINEER</text>
+  <rect x="188" y="318" width="84" height="16" fill="none" stroke="#cc2b2b" stroke-width="0.9"/>
+  <text x="230" y="329" font-family="'Courier New',monospace" font-size="8" fill="#cc2b2b" text-anchor="middle">Anna University ↗</text>
+</svg>
