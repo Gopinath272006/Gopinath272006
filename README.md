@@ -10,7 +10,6 @@
      §0  HERO BANNER
 ═══════════════════════════════════════════ -->
 
-<img src="./assets/hero.svg" alt="Gopinath Kaniyanppan — Full-Stack Developer & AI Enthusiast" width="100%"/>
 
 <!-- Animated typing subtitle -->
 <img src="https://readme-typing-svg.demolab.com?font=Caveat&size=26&duration=2800&pause=1000&color=0D0D0D&center=true&vCenter=true&width=700&height=48&lines=Full-Stack+Developer+%26+AI+Enthusiast;React+%7C+React+Native+%7C+Python;Building+AI-powered+applications;Crafting+scalable+web+solutions;Open+to+opportunities+%F0%9F%9F%A2" alt="Typing animation"/>
