@@ -20,10 +20,10 @@
       <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap');
-      .name { font-family: 'Caveat', cursive; font-weight: 700; }
-      .mono { font-family: 'Space Mono', 'Courier New', monospace; }
-      .hand { font-family: 'Caveat', cursive; }
+      
+      .name { font-family: 'Comic Sans MS','Segoe Script','Brush Script MT',cursive; font-weight:700; }
+      .mono { font-family:'Courier New',monospace; }
+      .hand { font-family:'Comic Sans MS','Segoe Script',cursive; }
     </style>
   </defs>
 
@@ -167,3 +167,4 @@
   <circle cx="450" cy="432" r="6" fill="none" stroke="#bbb" stroke-width="0.8"/>
   <circle cx="450" cy="432" r="2" fill="#bbb"/>
 </svg>
+
